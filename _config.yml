@@ -1,3 +1,4 @@
+---
 #------------------------------------------------------------
 # Values for this workshop.
 #------------------------------------------------------------
@@ -18,7 +19,7 @@
 # When setting this field to "incubator", please uncomment the
 # incubator_lesson_site, incubator_pre_survey, and incubator_post_survey
 # lines further down this file and add the URL to the relevant lesson site.
-carpentry: "swc"
+carpentry: "lc"
 
 # This option is currently only needed for
 # Data Carpentry and Software Carpentry workshops.
@@ -73,10 +74,7 @@ title: "Workshop Title"
 # Generic settings (should not need to change).
 #------------------------------------------------------------
 
-# This setting (kind) takes configurations from the styles
-# template. Please do not modify this. If you are teaching 
-# a custom set of lessons or a single lesson, use a custom 
-# schedule.
+# What kind of thing is this ("workshop" or "lesson")?
 kind: "workshop"
 
 # Magic to make URLs resolve both locally and on GitHub.
@@ -90,7 +88,7 @@ repository: <USERNAME>/<PROJECT>
 email: "team@carpentries.org"
 
 # Sites.
-amy_site: "https://amy.carpentries.org"
+amy_site: "https://amy.carpentries.org/"
 carpentries_github: "https://github.com/carpentries"
 carpentries_pages: "https://carpentries.github.io"
 carpentries_site: "https://carpentries.org/"
@@ -111,6 +109,8 @@ cc_by_human: "https://creativecommons.org/licenses/by/4.0/"
 # Surveys.
 pre_survey: "https://carpentries.typeform.com/to/wi32rS?slug="
 post_survey: "https://carpentries.typeform.com/to/UgVdRQ?slug="
+instructor_pre_survey: "https://www.surveymonkey.com/r/instructor_training_pre_survey?workshop_id="
+instructor_post_survey: "https://www.surveymonkey.com/r/instructor_training_post_survey?workshop_id="
 
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
 start_time: 0
@@ -153,3 +153,6 @@ exclude:
 
 # Turn on built-in syntax highlighting.
 highlighter: rouge
+
+# Custom
+cosponsor: "University of Maryland Health Sciences and Human Services Library"
